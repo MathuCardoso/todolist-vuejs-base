@@ -1,6 +1,4 @@
 <script setup>
-    import Pencil from "./components/icons/Pencil.vue";
-    import Trash from "./components/icons/Trash.vue";
 </script>
 
 <template>
@@ -36,12 +34,12 @@
                         <div class="d-flex gap-6">
                             <div class="w-100">
                                 <button class="btn-solid theme-info w-100">
-                                    Editar <Pencil />
+                                    Editar
                                 </button>
                             </div>
                             <div class="w-100">
                                 <button class="btn-solid theme-danger w-100">
-                                    Excluir <Trash />
+                                    Excluir
                                 </button>
                             </div>
                         </div>
